@@ -18,7 +18,7 @@ export default class Search extends React.Component{
                <div className="row">
                      <input className="col-7"value={username}onChange={this.handlechange}type="text" name="username" placeholder="enter username"></input>
                      <div className="col-1"></div>
-                     <button onClick={()=>fetch(username)} className="col-2 btn btn-success">search</button>
+                     <button onClick={()=>fetch(username) }  style={{fontSize:"2vw"}} className="col-2 btn btn-success">search</button>
                 </div>
             </div>
         </div>

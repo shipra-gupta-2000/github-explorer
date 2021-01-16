@@ -5,7 +5,7 @@ const Usercart=({ user })=>{
         <div className="user">
         <div className="card">
             <div className="card-body" style={{backgroundColor:"khaki"}}>
-                <img  src={user.avatar_url} class="img-fluid"/>
+                <img  src={user.avatar_url} className="img-fluid"/>
                 <h1>{user.name}</h1> 
                 <p>{user.company}</p>
                 <p>{user.bio}</p>               
